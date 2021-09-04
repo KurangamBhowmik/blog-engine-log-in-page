@@ -2,7 +2,8 @@
   box-sizing:border-box;
 }
 body {
-  background:	#808080;
+  background:#ddd;
+  
 }
 .form {
   position:absolute;
