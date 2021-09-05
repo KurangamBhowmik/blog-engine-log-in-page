@@ -10,7 +10,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  background: -webkit-linear-gradient(right, #a445b2, #fa4299);
 }
 ::selection{
   background: #fa4299;
@@ -30,7 +30,7 @@ html,body{
 }
 .wrapper .title{
   width: 50%;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   
 }
@@ -55,7 +55,7 @@ html,body{
   line-height: 48px;
   cursor: pointer;
   z-index: 1;
-  transition: all 0.6s ease;
+  
 }
 .slide-controls label.signup{
   color: #000;
@@ -67,7 +67,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  background: -webkit-linear-gradient(right, #a445b2, #fa4299);
   
 }
 input[type="radio"]{
@@ -81,13 +81,13 @@ input[type="radio"]{
   cursor: default;
   user-select: none;
 }
-#signup:checked ~ label.signin{
+#signup:checked ~ label.login{
   color: #000;
 }
-#signin:checked ~ label.signup{
+#login:checked ~ label.signup{
   color: #000;
 }
-#signin:checked ~ label.signin{
+#login:checked ~ label.login{
   cursor: default;
   user-select: none;
 }
@@ -101,7 +101,7 @@ input[type="radio"]{
 }
 .form-container .form-inner form{
   width: 50%;
-
+  
 }
 .form-inner form .field{
   height: 50px;
@@ -117,7 +117,7 @@ input[type="radio"]{
   border: 1px solid lightgrey;
   border-bottom-width: 2px;
   font-size: 17px;
-  transition: all 0.3s ease;
+  
 }
 .form-inner form .field input:focus{
   border-color: #fc83bb;
@@ -125,7 +125,7 @@ input[type="radio"]{
 }
 .form-inner form .field input::placeholder{
   color: #999;
-  transition: all 0.3s ease;
+  
 }
 form .field input:focus::placeholder{
   color: #b3b3b3;
@@ -160,8 +160,6 @@ form .btn .btn-layer{
   left: -100%;
   background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
   border-radius: 5px;
-  transition: all 0.4s ease;;
-}
 form .btn:hover .btn-layer{
   left: 0;
 }
