@@ -13,7 +13,7 @@ html,body{
   background:#ddd;
 }
 ::selection{
-  background: #fa4299;
+  background: #ddd;
   color: #555;
 }
 .wrapper{
