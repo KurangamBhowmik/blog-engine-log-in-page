@@ -10,10 +10,10 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background:#ddd;
+  background:#aaaaaa;
 }
 ::selection{
-  background: #ddd;
+  background: #aaaaaa;
   color: #555;
 }
 .wrapper{
@@ -67,7 +67,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background:#ddd;
+  background:#aaaaaa;
   
 }
 input[type="radio"]{
